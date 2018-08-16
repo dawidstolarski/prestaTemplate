@@ -51,7 +51,7 @@
       {block name='notifications'}
         {include file='_partials/notifications.tpl'}
       {/block}
-
+      {hook h='displayHome'}
       <section id="wrapper">
         {hook h="displayWrapperTop"}
         <div class="container">
